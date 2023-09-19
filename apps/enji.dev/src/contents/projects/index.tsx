@@ -63,7 +63,7 @@ function ProjectsContents() {
                 >
                   {currentState === 'github' && (
                     <GitHubWireframe
-                      author="enjidev"
+                      author="Noahsploit"
                       license="MIT"
                       repository="tailwindcss-accent"
                       description="Adds accent colors for more dynamic and flexible color utilization."
