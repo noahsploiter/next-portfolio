@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { m, useAnimationControls } from 'framer-motion';
 import Image from 'next/image';
+import image from '../../../../public/assets/images/me.png'
 
 const animation = {
   hide: { x: -32, opacity: 0 },
@@ -57,8 +58,10 @@ function HeaderTitle() {
             priority
           />
         </m.div>
+              
       </m.div>
-      <span className={clsx('text-slate-700', 'dark:text-slate-300')}>
+        <span className={clsx('text-slate-700', 'dark:text-slate-300')}>
+        <div className='flex items-center'>
         <m.span
           className={clsx(
             'mb-4 block text-[2.5rem] font-[1000] leading-none',
@@ -68,12 +71,17 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.2 }}
         >
+
           I&apos;m{' '}
           <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
             Noah
-          </strong>{' '}
+          </strong>
           Sploit,{' '}
         </m.span>
+               <div>
+                <Image className=' rounded-full ' alt='Noahsploit' src={image} height={60} width={60}/>
+              </div>
+          </div>
         <m.h1
           className={clsx(
             'block text-base text-slate-600',

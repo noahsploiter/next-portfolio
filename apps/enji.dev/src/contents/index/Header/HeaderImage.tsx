@@ -52,19 +52,19 @@ function HeaderImage() {
             initial={{ opacity: 0 }}
             animate={controlsHeaderImage}
           >
-            <Image
+            {/* <Image
               alt="Noahsploit Illustration"
               src="/assets/images/me.png"
               width={457}
               height={526}
               className={clsx(
-                'hidden max-w-none',
+                'hidden max-w-none rounded-full',
                 'lg:block',
                 'dark:brightness-[.82]'
               )}
               quality={100}
               priority
-            />
+            /> */}
           </m.div>
         </div>
       </div>
