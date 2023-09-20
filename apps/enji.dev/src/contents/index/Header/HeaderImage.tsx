@@ -18,7 +18,7 @@ function HeaderImage() {
     >
       <div
         className={clsx(
-          'from-accent-400/20 via-accent-400/0 absolute top-0 right-0 h-[590px] w-[375px] rounded-full bg-gradient-to-t',
+          'from-accent-400/20 via-accent-400/0 absolute top-0 right-0 h-[390px] w-[375px] rounded-full bg-gradient-to-t',
           'dark:from-accent-600/10 dark:via-accent-600/0'
         )}
       >
@@ -47,25 +47,26 @@ function HeaderImage() {
               }}
             />
           </m.div>
-          <m.div
-            className={clsx('')}
-            initial={{ opacity: 0 }}
-            animate={controlsHeaderImage}
+          <div
+          className=''
           >
-            {/* <Image
+            <Image
+            className=' rounded-xl'
               alt="Noahsploit Illustration"
-              src="/assets/images/me.png"
+              src="/assets/images/noah.jpg"
               width={457}
               height={526}
-              className={clsx(
-                'hidden max-w-none rounded-full',
-                'lg:block',
-                'dark:brightness-[.82]'
-              )}
               quality={100}
               priority
-            /> */}
-          </m.div>
+            />
+            
+            <h1 className={clsx(
+              'font-bold  text-slate-700',
+              'dark:text-slate-300 mt-5 text-center'
+            )}>I convert caffeine into code.</h1>
+       
+           
+          </div>
         </div>
       </div>
     </div>

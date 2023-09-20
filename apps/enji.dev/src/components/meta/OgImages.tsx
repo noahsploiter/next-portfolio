@@ -217,7 +217,7 @@ export function PageOgImage({
           src="https://github.com/enjidev.png?size=48"
           style={styles.authorAvatar}
         />
-        <div style={styles.authorName}>@enjidev</div>
+        <div style={styles.authorName}>@noahsploit</div>
       </div>
       <div
         style={
