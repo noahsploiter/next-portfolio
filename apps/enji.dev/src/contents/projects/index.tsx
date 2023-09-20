@@ -51,7 +51,7 @@ function ProjectsContents() {
                   browserTabs={[
                     {
                       icon: <GitHubIcon className="h-4 w-4" />,
-                      title: 'enjidev/tailwindcss-accent - GitHub',
+                      title: 'noahsploit/tailwindcss-accent - GitHub',
                       isActive: currentState === 'github',
                     },
                     {

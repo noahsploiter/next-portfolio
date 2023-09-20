@@ -18,7 +18,7 @@ function LastUpdate() {
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}
     >
-      <span>see the recent update on GitHub</span>
+      {/* <span>see the recent update on GitHub</span> */}
     </a>
   );
 }
@@ -112,7 +112,7 @@ function FooterDescription() {
         About Me
       </div>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m Enji, a <strong>front-end developer</strong> who loves
+        I&apos;m Noah, a <strong>Full-Stack developer</strong> who loves
         intuitive, clean and modern UI design.
       </p>
       <ul className={clsx('-ml-2 flex gap-1')}>
@@ -214,7 +214,7 @@ function Footer() {
                   ]}
                 />
               </div>
-              <div className={clsx('flex', 'sm:gap-16')}>
+              {/* <div className={clsx('flex', 'sm:gap-16')}>
                 <FooterGroup
                   title="This Site"
                   links={[
@@ -234,7 +234,7 @@ function Footer() {
                     },
                   ]}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ function Footer() {
           )}
         >
           <div className={clsx('font-semibold')}>
-            &copy; {dayjs().format('YYYY')}, Enji Kusnadi
+            &copy; {dayjs().format('YYYY')}, Noahsploit
           </div>
           <div className={clsx('text-slate-500', 'dark:text-slate-400')}>
             <LastUpdate />

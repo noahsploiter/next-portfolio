@@ -53,7 +53,7 @@ function HeaderImage() {
             animate={controlsHeaderImage}
           >
             <Image
-              alt="Enji Kusnadi Illustration"
+              alt="Noahsploit Illustration"
               src="/assets/images/me.png"
               width={457}
               height={526}
@@ -70,6 +70,6 @@ function HeaderImage() {
       </div>
     </div>
   );
-}
+};
 
 export default HeaderImage;
