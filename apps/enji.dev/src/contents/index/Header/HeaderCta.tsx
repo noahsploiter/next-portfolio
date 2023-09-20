@@ -33,7 +33,7 @@ function ButtonContactMe() {
 
 function ButtonResume() {
   return (
-    <div></div>
+    <div/>
   );
 }
 
