@@ -81,6 +81,40 @@ function ProjectsContents() {
             </div>
           </div>
         </div>
+        <div className="mt-10">
+          <h1
+            className="text-5xl font-bold text-slate-700
+              dark:text-slate-300"
+          >
+            Startups
+          </h1>
+          <div className="mt-10">
+            <h1
+              className="text-4xl font-bold lowercase text-slate-700
+              dark:text-slate-500"
+            >
+              Kartall Group
+            </h1>
+            <p
+              className="p-3 font-bold lowercase text-slate-700
+              dark:text-slate-500"
+            >
+              Software development company
+            </p>
+            <h1
+              className="mt-10 text-4xl font-bold lowercase
+              text-slate-700 dark:text-slate-500"
+            >
+              ሽያጭ
+            </h1>
+            <p
+              className="p-3 font-bold  text-slate-700
+              dark:text-slate-500"
+            >
+              E-commerce platform
+            </p>
+          </div>
+        </div>
       </SectionContent>
     </>
   );

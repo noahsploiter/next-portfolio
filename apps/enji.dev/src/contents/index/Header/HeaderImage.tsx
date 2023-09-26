@@ -22,55 +22,10 @@ function HeaderImage() {
           'dark:from-accent-600/10 dark:via-accent-600/0'
         )}
       >
-        <div className={clsx('absolute right-0 bottom-0 overflow-hidden')}>
-          <m.div
-            className={clsx('absolute z-[10]')}
-            initial={{ opacity: 1 }}
-            animate={controlsHeaderOutline}
-          >
-            <HeaderImageAnimation
-              onAnimationComplete={() => {
-                controlsHeaderOutline.start({
-                  opacity: 0,
-                  transition: {
-                    duration: 0.2,
-                    delay: 0.15,
-                  },
-                });
-
-                controlsHeaderImage.start({
-                  opacity: 1,
-                  transition: {
-                    duration: 0.15,
-                  },
-                });
-              }}
-            />
-          </m.div>
-          <div
-          className=''
-          >
-            <Image
-            className=' rounded-xl'
-              alt="Noahsploit Illustration"
-              src="/assets/images/noah.jpg"
-              width={457}
-              height={526}
-              quality={100}
-              priority
-            />
-            
-            <h1 className={clsx(
-              'font-bold  text-slate-700',
-              'dark:text-slate-300 mt-5 text-center'
-            )}>I convert caffeine into code.</h1>
-       
-           
-          </div>
-        </div>
+        <div>{/* free space */}</div>
       </div>
     </div>
   );
-};
+}
 
 export default HeaderImage;
