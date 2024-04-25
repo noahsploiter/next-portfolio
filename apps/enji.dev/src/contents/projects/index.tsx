@@ -81,7 +81,7 @@ function ProjectsContents() {
             </div>
           </div>
         </div>
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <h1
             className="text-5xl font-bold text-slate-700
               dark:text-slate-300"
@@ -114,7 +114,7 @@ function ProjectsContents() {
               E-commerce platform
             </p>
           </div>
-        </div>
+        </div> */}
       </SectionContent>
     </>
   );
