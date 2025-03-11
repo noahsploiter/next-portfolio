@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/github/commit-activity/m/enjidev/enji.dev?style=flat-square"/>
   </h1>
 </div>
-
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
 ## 📘 [enji.dev](https://www.enji.dev)
